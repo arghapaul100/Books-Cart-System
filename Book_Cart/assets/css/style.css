@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+html,body{
+    scroll-behavior: smooth;
+}
+nav{
+    height: 10%;
+}
+.btn:focus{
+    outline:none!important;
+    box-shadow: none;
+}
+#main{
+    visibility: hidden;
+}
+.main{
+    /*background-color: #fafafa;*/
+    background-color: #292C35;
+    color: white;
+}
+.
+#cart_avtar{
+    background-size: 100% 100%;
+}
+#sign_btn{
+    border: 2px solid #6361DC;
+    color: #6361DC;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .2s;
+}
+#sign_btn:hover{
+    color: white;
+    background-color: #6361DC;
+}
+#cart_img{
+    font-size: 2vw;
+    color: #6361DC;
+    cursor: pointer;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size: 3.5vw;
+    /*color: #484848;*/
+}
+#h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:normal;
+    padding: 1vw 0 1vw 0;
+    font-size: 1.5vw;
+    /*color: #484848;*/
+}
+#exlore_btn, #rec_add_cart, #php_add_cart, #js_add_cart, #py_add_cart{
+    border: 2px solid #6361DC;
+    color: white;
+    background-color: #6361DC;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .2s;
+}
+#exlore_btn:hover,#rec_add_cart:hover,#php_add_cart:hover,#js_add_cart:hover,#py_add_cart:hover{
+    color: #6361DC;
+    background-color: transparent;
+}
+#second_col{
+    height: 350px;
+}
+#img{
+    background-image: url(../images/bg_img.svg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+}
+#cross_img{
+    font-size: 2vw;
+    cursor: pointer;
+}
+#sidenav{
+    background-color: white;
+}
+.sideNav_darkmode{
+    background-color: #292C35;
+    color: white;
+}

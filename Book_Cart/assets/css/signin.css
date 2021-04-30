@@ -1,0 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#btn_login,#btn_signup{
+	background-color: #6361DC; 
+	color: white
+}
